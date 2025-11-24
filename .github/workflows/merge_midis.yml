@@ -24,7 +24,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install mido python-rtmidi
+        run: pip install mido
 
       - name: Merge MIDI files
         run: python .github/scripts/merge_midis.py
